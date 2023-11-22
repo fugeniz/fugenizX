@@ -1,5 +1,3 @@
-<!-- Change the value of lang="en" attribute if your website's language is not English.
-You can find the code of your language here - https://www.w3schools.com/tags/ref_language_codes.asp -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,28 +33,20 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/style-responsive.css" />
-
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/animations.min.css" />
     <link rel="stylesheet" href="css/vertical-rhythm.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
-
-    <!-- Color Schemes :: Uncomment one for apply :: -->
-    <!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/green.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/cyan.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/azure.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/blue.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/blue-extra.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/purple.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/purple-extra.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/brown.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/brown-extra.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/red-extra.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/pink.css"> -->
-    <!-- <link rel="stylesheet" href="css/colors/black.css"> -->
+    <!-- TailwindCSS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css"
+    />
+    <!-- Your TailwindCSS Styles -->
+    <style>
+      /* Add your TailwindCSS classes here */
+    </style>
   </head>
   <body class="appear-animate">
     <!-- Page Loader -->
@@ -68,25 +58,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
     <!-- Page Wrap -->
     <div class="page" id="top">
       <!-- Home Section -->
-      <section
-        class="page-section bg-dark-alfa-9"
-        data-background="images/event/eventintro.jpg"
-      >
-        <div class="container relative">
-          <div class="align-center">
-            <div class="big-icon">
-              <i class="fa fa-pencil"></i>
-            </div>
-
-            <h3 class="small-title white">
-              Technology
-              <span class="serif">is best when it brings</span>
-              people
-              <span class="serif"> together</span>
-            </h3>
-          </div>
-        </div>
-      </section>
       <!-- End Home Section -->
 
       <!-- Navigation panel -->
@@ -138,112 +109,87 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
           <!-- End Social Links -->
         </nav>
       </div>
-      <!-- End Navigation panel -->
 
       <!-- Content Section -->
-      <section class="small-section">
-        <div class="container relative">
-          <!-- Headings -->
-          <h4 class="pt-0 mb-50 mb-xs-30">
-            <span class="uppercase"
-              ><a href="#">Tech</a> <i class="fa fa-angle-right"></i
-              ><a href="events.html">Events </a><i class="fa fa-angle-right"></i
-              >CULTURAL </a></span
-            >
-          </h4>
-          <!-- End Headings -->
-
-          <!-- Blog Posts Grid -->
-          <div class="row multi-columns-row">
-            <div class="col-sm-6 col-md-4 col-lg-4">
+      <section class="page-section">
+        <div class="container">
+          <div class="row">
+            <!-- Content -->
+            <div class="col-sm-8">
               <!-- Post -->
-              <div class="blog-item">
-                <!-- Image -->
-                <div class="blog-media relative">
-                  <a href="vogue.html">
-                    <img
-                      src="images/event/cultural/voguecover.jpg"
-                      alt=""
-                    />
+              <div class="blog-item mb-80 mb-xs-40">
+                
+                <!-- End Text -->
 
-                    <div class="lp-date">
-                      <span class="lp-date-num">30</span>
-                      NOV
-                    </div>
-                    <div class="lp-more">Read More</div>
-                  </a>
+                <!-- Media Gallery -->
+                <div class="blog-media mt-40 mb-40 mb-xs-30">
+                  <ul class="clearlist content-slider">
+                    <li>
+                      <img src="images/event/cultural/mrsngce.jpg" alt="" />
+                    </li>
+                  </ul>
                 </div>
 
-                <!-- Post Title -->
-                <h2 class="blog-item-title">
-                  <a href="vogue.html" class="small strong">VOGUE VISTA</a>
-                </h2>
+                <h1 class="mt-0">
+                  MR SNGCE
+                </h1>
 
-                <!-- Author, Categories, Comments -->
+                <!-- Text -->
+                <div class="lead">
+                  <p>
+                   🏋 Witness the pinnacle of strength, symmetry, and dedication at MR Fugeniz Men's Bodybuilding Show! 🏆
 
-                <!-- Text Intro -->
-                <div class="blog-item-body">
-                  <p style="font-size: larger; font: bolder">
-                    👠 Fugeniz.X Inter-College Fashion Showdown
+
                   </p>
                 </div>
-
-                <!-- Read More Link -->
-                <div class="blog-item-foot">
-                  <a href="vogue.html" class="btn btn-mod btn-small"
-                    >Read More <i class="fa fa-angle-right"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Post -->
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-4">
-              <!-- Post -->
-              <div class="blog-item">
-                <!-- Image -->
-                <div class="blog-media relative">
-                  <a href="mrsngce.html">
-                    <img
-                      src="images/event/cultural/mrsngcecover.jpg"
-                      alt=""
-                    />
-
-                    <div class="lp-date">
-                      <span class="lp-date-num">30</span>
-                      NOV
-                    </div>
-                    <div class="lp-more">Read More</div>
-                  </a>
-                </div>
-
-                <!-- Post Title -->
-                <h2 class="blog-item-title">
-                  <a href="mrsngce.html" class="small strong">MR SNGCE</a>
-                </h2>
-
-                <!-- Author, Categories, Comments -->
-
-                <!-- Text Intro -->
+                
+                <!-- Text -->
                 <div class="blog-item-body">
-                  <p style="font-size: larger; font: bolder">
-                    🏋 MR Fugeniz Men's Bodybuilding Show! 
+                  <p style="font-size: larger;">
+                    🔥 Featuring: 
+- Striking Muscle Displays
+- Jaw-dropping Posing Routines
+- Unmatched Athleticism
                   </p>
-                </div>
+                  <p style="font-size: larger;">
+💪 Competition Highlights:
+- Expert Judging Panel(WFF)
+- Electrifying Posing Rounds
+- Thrilling Showdowns for the Title
 
-                <!-- Read More Link -->
-                <div class="blog-item-foot">
-                  <a href="mrsngce.html" class="btn btn-mod btn-small"
-                    >Read More <i class="fa fa-angle-right"></i
-                  ></a>
+
+                  </p>
+
+                  <blockquote>
+                    <p>
+                     📅 Date: November 30, 2023
+                    </p>
+                    <p>🕙 Time: 10:00 AM</p>
+                  </blockquote> <h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font:lighter">🌟Be the trendsetter, be the game-changer. Secure your spot now for a day filled with glamour, creativity, and the spirit of fashion!</h2>
+                  <div style="font-size: larger;">
+                    <p>Join us for an epic showcase of power, passion, and the pursuit of physical perfection. Be part of the MR Fugeniz Men's Bodybuilding Show – where champions are made and legends are born!
+</p>
+                  <p>
+                    Any queries:
+                  </p>
+                  <p>
+                    Manas Jo - 9074347883
+                  </p>
+                  <p>
+                    Anandhakrishnan - 8111897930
+                  </p>
+                  </div>
+                  <ul>
+                    <li>#Mrsngce</li>
+                    <li>#bodybuildershow</li>
+
+                  </ul>
                 </div>
-              </div>
-              <!-- End Post -->
-            </div>
+                <!-- End Text -->
+                <div class="mt-4">
+            <a href="https://forms.gle/SxPQYfaaYGwFY19p7" class="btn btn-mod btn-medium">Register Now</a>
           </div>
-          <!-- End Blog Posts Grid -->
-
-          
-        </div>
+              </div></div>
       </section>
       <!-- End Content Section -->
 
